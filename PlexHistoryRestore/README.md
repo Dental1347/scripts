@@ -82,4 +82,4 @@ Updating library_section_id in the database for pair 3 to 14...
 Library_section_id updated successfully. Rows updated: 13243
 ```
 
-Start your plex container and rejoice as your watch history has returned. :)
+Start your plex container and rejoice as your watch history has returned, it is best practice to scan all metadata to make sure everything is restored.:)
