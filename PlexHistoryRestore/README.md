@@ -60,14 +60,15 @@ Anime:   3 > 14
 Be very sure your ids are correct, as incorrect usage will mess up your history. The usage of the PlexHistoryRestore.sh is as follows:
 `Usage: PlexHistoryRestore.sh <database_file> <old_library_section_id1> <new_library_section_id1> [<old_library_section_id2> <new_library_section_id2> ...]`
 This may look daunting, but it's rather simple.
-
-`bash PlexHistoryRestore.sh com.plexapp.plugins.library.db 2 13`
+```
+bash PlexHistoryRestore.sh com.plexapp.plugins.library.db 2 13
             ^                   ^                          ^
             Path to the file    ^                          ^
                                 ^                          ^
                                 Database to be used.       ^   
                                                            ^
                                                            The old ID followed up by the new id.
+```
 If you want to change multiple id's in on go, just repeat in pairs:
 `bash PlexHistoryRestore.sh com.plexapp.plugins.library.db 2 13 3 14`
 
